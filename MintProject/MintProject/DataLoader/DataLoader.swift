@@ -12,11 +12,10 @@ class DataLoader {
     var loadDataDelegate: GithubCommitProtocol?
     
     public func getData() {
-        let url = "https://api.github.com/repos/rails/rails/commits"
+        let url = DataLoaderConstants.urlLink
         
         let task = URLSession.shared.dataTask(with: URL(string: url)!, completionHandler: { data, response,error in
             guard let data = data, error == nil else {
-                print("something went wrong")
                 return
             }
             var result: [WelcomeElement]?
@@ -29,11 +28,9 @@ class DataLoader {
             guard let json = result else {
                 return
             }
-            print(json)
             self.loadDataDelegate?.commitData(recentCommits: json)
         })
         
         task.resume()
     }
 }
-

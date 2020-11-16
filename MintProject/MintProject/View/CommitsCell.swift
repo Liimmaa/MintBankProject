@@ -28,7 +28,7 @@ class CommitsCell: UITableViewCell {
     }
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        fatalError(CommitCellConstants.fatalError)
     }
     
     func setupCellView(){
@@ -48,7 +48,6 @@ class CommitsCell: UITableViewCell {
         authorNameLabel.font = UIFont.boldSystemFont(ofSize: 16)
         authorNameLabel.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         authorNameLabel.numberOfLines = 0
-        authorNameLabel.text = "Author Name"
         authorNameLabel.textAlignment = .center
         authorNameLabel.snp.makeConstraints { (make) in
             make.top.equalTo(cellView.snp.top).offset(10)
@@ -62,7 +61,6 @@ class CommitsCell: UITableViewCell {
         authorEmailLabel.font = UIFont.systemFont(ofSize: 15)
         authorEmailLabel.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         authorEmailLabel.numberOfLines = 0
-        authorEmailLabel.text = "Author Email"
         authorEmailLabel.snp.makeConstraints { (make) in
             make.top.equalTo(authorNameLabel.snp.bottom).offset(8)
             make.left.equalTo(cellView.snp.left).offset(10)
@@ -75,7 +73,6 @@ class CommitsCell: UITableViewCell {
         date.font = UIFont.systemFont(ofSize: 15)
         date.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         date.numberOfLines = 0
-        date.text = "Commit Date"
         date.snp.makeConstraints { (make) in
             make.top.equalTo(authorEmailLabel.snp.bottom).offset(5)
             make.left.equalTo(cellView.snp.left).offset(10)
@@ -100,7 +97,6 @@ class CommitsCell: UITableViewCell {
         commitMessage.font = UIFont.systemFont(ofSize: 14)
         commitMessage.textColor = #colorLiteral(red: 0.3098039329, green: 0.01568627544, blue: 0.1294117719, alpha: 1)
         commitMessage.numberOfLines = 0
-        commitMessage.text = "Commit Message"
         commitMessage.snp.makeConstraints { (make) in
             make.top.equalTo(commitMessageView.snp.top).offset(5)
             make.left.equalTo(commitMessageView.snp.left).offset(10)

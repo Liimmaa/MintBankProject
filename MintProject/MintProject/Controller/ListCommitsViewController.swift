@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class ListCommitsViewController: UIViewController, UITableViewDelegate,  UITableViewDataSource, GithubCommitProtocol {
+class ListCommitsViewController: UIViewController {
 
     var tableView = UITableView()
     var titleView = UIView()
@@ -45,7 +45,7 @@ class ListCommitsViewController: UIViewController, UITableViewDelegate,  UITable
         titleView.addSubview(imageView)
         imageView.backgroundColor = #colorLiteral(red: 0.9505546704, green: 0.9505546704, blue: 0.9505546704, alpha: 1)
         imageView.layer.cornerRadius = 10
-        imageView.image = UIImage(named: "ruby2")
+        imageView.image = UIImage(named: ListCommitsConstants.viewImage)
         imageView.contentMode = .scaleAspectFill
         imageView.snp.makeConstraints { (make) in
             make.top.equalTo(titleView)
@@ -56,7 +56,7 @@ class ListCommitsViewController: UIViewController, UITableViewDelegate,  UITable
     }
 
     func setupTableview() {
-        tableView.register(CommitsCell.self, forCellReuseIdentifier: "cellId")
+        tableView.register(CommitsCell.self, forCellReuseIdentifier: ListCommitsConstants.cellIdentifier)
         view.addSubview(tableView)
         tableView.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         tableView.delegate = self
@@ -69,7 +69,9 @@ class ListCommitsViewController: UIViewController, UITableViewDelegate,  UITable
             make.bottom.equalTo(view.snp.bottom)
         }
     }
-    
+}
+
+extension ListCommitsViewController: UITableViewDelegate,  UITableViewDataSource, GithubCommitProtocol {
     func commitData(recentCommits: [WelcomeElement]) {
         self.commitData = recentCommits
         DispatchQueue.main.async {
@@ -87,7 +89,7 @@ class ListCommitsViewController: UIViewController, UITableViewDelegate,  UITable
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) as? CommitsCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: ListCommitsConstants.cellIdentifier, for: indexPath) as? CommitsCell
         let path = commitData?[indexPath.row]
         cell?.authorNameLabel.text = path?.commit.author.name
         cell?.authorEmailLabel.text = path?.commit.author.email
@@ -97,4 +99,3 @@ class ListCommitsViewController: UIViewController, UITableViewDelegate,  UITable
         return cell ?? UITableViewCell()
     }
 }
-
