@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,7 @@
 		9796F33B27A63CF4F4EF7923 /* Pods_MintProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8461D3FC55416C7331BB8764 /* Pods_MintProject.framework */; };
 		CE239FC02562E7DC0006B457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239FBF2562E7DC0006B457 /* AppDelegate.swift */; };
 		CE239FC22562E7DC0006B457 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239FC12562E7DC0006B457 /* SceneDelegate.swift */; };
-		CE239FC42562E7DC0006B457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239FC32562E7DC0006B457 /* ViewController.swift */; };
+		CE239FC42562E7DC0006B457 /* ListCommitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239FC32562E7DC0006B457 /* ListCommitsViewController.swift */; };
 		CE239FC72562E7DC0006B457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE239FC52562E7DC0006B457 /* Main.storyboard */; };
 		CE239FC92562E7DF0006B457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE239FC82562E7DF0006B457 /* Assets.xcassets */; };
 		CE239FCC2562E7DF0006B457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE239FCA2562E7DF0006B457 /* LaunchScreen.storyboard */; };
@@ -49,7 +49,7 @@
 		CE239FBC2562E7DC0006B457 /* MintProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MintProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE239FBF2562E7DC0006B457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE239FC12562E7DC0006B457 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE239FC32562E7DC0006B457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE239FC32562E7DC0006B457 /* ListCommitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommitsViewController.swift; sourceTree = "<group>"; };
 		CE239FC62562E7DC0006B457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE239FC82562E7DF0006B457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE239FCB2562E7DF0006B457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,6 @@
 				BF10FF8A5B1CEA558902C471 /* Pods-MintProjectTests.debug.xcconfig */,
 				30EFE73DC269033E8AF10F68 /* Pods-MintProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,7 +141,7 @@
 			children = (
 				CE239FBF2562E7DC0006B457 /* AppDelegate.swift */,
 				CE239FC12562E7DC0006B457 /* SceneDelegate.swift */,
-				CE239FC32562E7DC0006B457 /* ViewController.swift */,
+				CE239FC32562E7DC0006B457 /* ListCommitsViewController.swift */,
 				CE239FC52562E7DC0006B457 /* Main.storyboard */,
 				CE239FC82562E7DF0006B457 /* Assets.xcassets */,
 				CE239FCA2562E7DF0006B457 /* LaunchScreen.storyboard */,
@@ -407,7 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE239FC42562E7DC0006B457 /* ViewController.swift in Sources */,
+				CE239FC42562E7DC0006B457 /* ListCommitsViewController.swift in Sources */,
 				CE239FC02562E7DC0006B457 /* AppDelegate.swift in Sources */,
 				CE239FC22562E7DC0006B457 /* SceneDelegate.swift in Sources */,
 			);
