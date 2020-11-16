@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE239FC02562E7DC0006B457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239FBF2562E7DC0006B457 /* AppDelegate.swift */; };
+		CE239FC22562E7DC0006B457 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239FC12562E7DC0006B457 /* SceneDelegate.swift */; };
+		CE239FC42562E7DC0006B457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239FC32562E7DC0006B457 /* ViewController.swift */; };
+		CE239FC72562E7DC0006B457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE239FC52562E7DC0006B457 /* Main.storyboard */; };
+		CE239FC92562E7DF0006B457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE239FC82562E7DF0006B457 /* Assets.xcassets */; };
+		CE239FCC2562E7DF0006B457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE239FCA2562E7DF0006B457 /* LaunchScreen.storyboard */; };
+		CE239FD72562E7E00006B457 /* MintProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239FD62562E7E00006B457 /* MintProjectTests.swift */; };
+		CE239FE22562E7E00006B457 /* MintProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239FE12562E7E00006B457 /* MintProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE239FD32562E7E00006B457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE239FB42562E7DC0006B457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE239FBB2562E7DC0006B457;
+			remoteInfo = MintProject;
+		};
+		CE239FDE2562E7E00006B457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE239FB42562E7DC0006B457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE239FBB2562E7DC0006B457;
+			remoteInfo = MintProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE239FBC2562E7DC0006B457 /* MintProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MintProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE239FBF2562E7DC0006B457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE239FC12562E7DC0006B457 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE239FC32562E7DC0006B457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE239FC62562E7DC0006B457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE239FC82562E7DF0006B457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE239FCB2562E7DF0006B457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE239FCD2562E7DF0006B457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE239FD22562E7E00006B457 /* MintProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE239FD62562E7E00006B457 /* MintProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintProjectTests.swift; sourceTree = "<group>"; };
+		CE239FD82562E7E00006B457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE239FDD2562E7E00006B457 /* MintProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE239FE12562E7E00006B457 /* MintProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintProjectUITests.swift; sourceTree = "<group>"; };
+		CE239FE32562E7E00006B457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE239FB92562E7DC0006B457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE239FCF2562E7E00006B457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE239FDA2562E7E00006B457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE239FB32562E7DC0006B457 = {
+			isa = PBXGroup;
+			children = (
+				CE239FBE2562E7DC0006B457 /* MintProject */,
+				CE239FD52562E7E00006B457 /* MintProjectTests */,
+				CE239FE02562E7E00006B457 /* MintProjectUITests */,
+				CE239FBD2562E7DC0006B457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE239FBD2562E7DC0006B457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE239FBC2562E7DC0006B457 /* MintProject.app */,
+				CE239FD22562E7E00006B457 /* MintProjectTests.xctest */,
+				CE239FDD2562E7E00006B457 /* MintProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE239FBE2562E7DC0006B457 /* MintProject */ = {
+			isa = PBXGroup;
+			children = (
+				CE239FBF2562E7DC0006B457 /* AppDelegate.swift */,
+				CE239FC12562E7DC0006B457 /* SceneDelegate.swift */,
+				CE239FC32562E7DC0006B457 /* ViewController.swift */,
+				CE239FC52562E7DC0006B457 /* Main.storyboard */,
+				CE239FC82562E7DF0006B457 /* Assets.xcassets */,
+				CE239FCA2562E7DF0006B457 /* LaunchScreen.storyboard */,
+				CE239FCD2562E7DF0006B457 /* Info.plist */,
+			);
+			path = MintProject;
+			sourceTree = "<group>";
+		};
+		CE239FD52562E7E00006B457 /* MintProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE239FD62562E7E00006B457 /* MintProjectTests.swift */,
+				CE239FD82562E7E00006B457 /* Info.plist */,
+			);
+			path = MintProjectTests;
+			sourceTree = "<group>";
+		};
+		CE239FE02562E7E00006B457 /* MintProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE239FE12562E7E00006B457 /* MintProjectUITests.swift */,
+				CE239FE32562E7E00006B457 /* Info.plist */,
+			);
+			path = MintProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE239FBB2562E7DC0006B457 /* MintProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE239FE62562E7E00006B457 /* Build configuration list for PBXNativeTarget "MintProject" */;
+			buildPhases = (
+				CE239FB82562E7DC0006B457 /* Sources */,
+				CE239FB92562E7DC0006B457 /* Frameworks */,
+				CE239FBA2562E7DC0006B457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MintProject;
+			productName = MintProject;
+			productReference = CE239FBC2562E7DC0006B457 /* MintProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE239FD12562E7E00006B457 /* MintProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE239FE92562E7E00006B457 /* Build configuration list for PBXNativeTarget "MintProjectTests" */;
+			buildPhases = (
+				CE239FCE2562E7E00006B457 /* Sources */,
+				CE239FCF2562E7E00006B457 /* Frameworks */,
+				CE239FD02562E7E00006B457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE239FD42562E7E00006B457 /* PBXTargetDependency */,
+			);
+			name = MintProjectTests;
+			productName = MintProjectTests;
+			productReference = CE239FD22562E7E00006B457 /* MintProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE239FDC2562E7E00006B457 /* MintProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE239FEC2562E7E00006B457 /* Build configuration list for PBXNativeTarget "MintProjectUITests" */;
+			buildPhases = (
+				CE239FD92562E7E00006B457 /* Sources */,
+				CE239FDA2562E7E00006B457 /* Frameworks */,
+				CE239FDB2562E7E00006B457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE239FDF2562E7E00006B457 /* PBXTargetDependency */,
+			);
+			name = MintProjectUITests;
+			productName = MintProjectUITests;
+			productReference = CE239FDD2562E7E00006B457 /* MintProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE239FB42562E7DC0006B457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CE239FBB2562E7DC0006B457 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					CE239FD12562E7E00006B457 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CE239FBB2562E7DC0006B457;
+					};
+					CE239FDC2562E7E00006B457 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CE239FBB2562E7DC0006B457;
+					};
+				};
+			};
+			buildConfigurationList = CE239FB72562E7DC0006B457 /* Build configuration list for PBXProject "MintProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE239FB32562E7DC0006B457;
+			productRefGroup = CE239FBD2562E7DC0006B457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE239FBB2562E7DC0006B457 /* MintProject */,
+				CE239FD12562E7E00006B457 /* MintProjectTests */,
+				CE239FDC2562E7E00006B457 /* MintProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE239FBA2562E7DC0006B457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE239FCC2562E7DF0006B457 /* LaunchScreen.storyboard in Resources */,
+				CE239FC92562E7DF0006B457 /* Assets.xcassets in Resources */,
+				CE239FC72562E7DC0006B457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE239FD02562E7E00006B457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE239FDB2562E7E00006B457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE239FB82562E7DC0006B457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE239FC42562E7DC0006B457 /* ViewController.swift in Sources */,
+				CE239FC02562E7DC0006B457 /* AppDelegate.swift in Sources */,
+				CE239FC22562E7DC0006B457 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE239FCE2562E7E00006B457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE239FD72562E7E00006B457 /* MintProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE239FD92562E7E00006B457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE239FE22562E7E00006B457 /* MintProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE239FD42562E7E00006B457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE239FBB2562E7DC0006B457 /* MintProject */;
+			targetProxy = CE239FD32562E7E00006B457 /* PBXContainerItemProxy */;
+		};
+		CE239FDF2562E7E00006B457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE239FBB2562E7DC0006B457 /* MintProject */;
+			targetProxy = CE239FDE2562E7E00006B457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE239FC52562E7DC0006B457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE239FC62562E7DC0006B457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE239FCA2562E7DF0006B457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE239FCB2562E7DF0006B457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE239FE42562E7E00006B457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE239FE52562E7E00006B457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE239FE72562E7E00006B457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MintProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFierce.MintProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE239FE82562E7E00006B457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MintProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFierce.MintProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE239FEA2562E7E00006B457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MintProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFierce.MintProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MintProject.app/MintProject";
+			};
+			name = Debug;
+		};
+		CE239FEB2562E7E00006B457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MintProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFierce.MintProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MintProject.app/MintProject";
+			};
+			name = Release;
+		};
+		CE239FED2562E7E00006B457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MintProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFierce.MintProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MintProject;
+			};
+			name = Debug;
+		};
+		CE239FEE2562E7E00006B457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MintProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFierce.MintProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MintProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE239FB72562E7DC0006B457 /* Build configuration list for PBXProject "MintProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE239FE42562E7E00006B457 /* Debug */,
+				CE239FE52562E7E00006B457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE239FE62562E7E00006B457 /* Build configuration list for PBXNativeTarget "MintProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE239FE72562E7E00006B457 /* Debug */,
+				CE239FE82562E7E00006B457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE239FE92562E7E00006B457 /* Build configuration list for PBXNativeTarget "MintProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE239FEA2562E7E00006B457 /* Debug */,
+				CE239FEB2562E7E00006B457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE239FEC2562E7E00006B457 /* Build configuration list for PBXNativeTarget "MintProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE239FED2562E7E00006B457 /* Debug */,
+				CE239FEE2562E7E00006B457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE239FB42562E7DC0006B457 /* Project object */;
+}
