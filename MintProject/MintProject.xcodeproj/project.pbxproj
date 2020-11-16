@@ -16,6 +16,7 @@
 		CE239FCC2562E7DF0006B457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE239FCA2562E7DF0006B457 /* LaunchScreen.storyboard */; };
 		CE239FD72562E7E00006B457 /* MintProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239FD62562E7E00006B457 /* MintProjectTests.swift */; };
 		CE239FE22562E7E00006B457 /* MintProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239FE12562E7E00006B457 /* MintProjectUITests.swift */; };
+		CE23A0012562F3780006B457 /* CommitsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23A0002562F3780006B457 /* CommitsCell.swift */; };
 		F02ABDB43E799F2AFEB0C17C /* Pods_MintProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927054E5759095DB08C948B /* Pods_MintProjectTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		CE239FDD2562E7E00006B457 /* MintProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE239FE12562E7E00006B457 /* MintProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintProjectUITests.swift; sourceTree = "<group>"; };
 		CE239FE32562E7E00006B457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE23A0002562F3780006B457 /* CommitsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsCell.swift; sourceTree = "<group>"; };
 		EA27A6B7324C913070C4CC5F /* Pods_MintProject_MintProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MintProject_MintProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 		CE239FBE2562E7DC0006B457 /* MintProject */ = {
 			isa = PBXGroup;
 			children = (
+				CE239FFF2562F32B0006B457 /* View */,
 				CE239FBF2562E7DC0006B457 /* AppDelegate.swift */,
 				CE239FC12562E7DC0006B457 /* SceneDelegate.swift */,
 				CE239FC32562E7DC0006B457 /* ListCommitsViewController.swift */,
@@ -163,6 +166,14 @@
 				CE239FE32562E7E00006B457 /* Info.plist */,
 			);
 			path = MintProjectUITests;
+			sourceTree = "<group>";
+		};
+		CE239FFF2562F32B0006B457 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A0002562F3780006B457 /* CommitsCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE23A0012562F3780006B457 /* CommitsCell.swift in Sources */,
 				CE239FC42562E7DC0006B457 /* ListCommitsViewController.swift in Sources */,
 				CE239FC02562E7DC0006B457 /* AppDelegate.swift in Sources */,
 				CE239FC22562E7DC0006B457 /* SceneDelegate.swift in Sources */,
