@@ -29,6 +29,6 @@ Api [url](https://api.github.com/repos/rails/rails/commits)
 <!-- CONTACT -->
 ## Contact
 
-Chioma Mmegwa: [Github Link](https://github.com/Liimmaa)
+Chioma Mmegwa: [@Liimmaa](https://github.com/Liimmaa)
 
 Project [Link](https://github.com/Liimmaa/MintBankProject)
