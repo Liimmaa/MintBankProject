@@ -1,6 +1,6 @@
 ## MintBankProject
 #### "User Story"
-##### As a developer I want to view commits to the rails repository so that I can easily see what the last 25 commits, who committed them, and when they were committed
+##### As a developer I want to view commits to the rails repository so that I can easily see what the last 25 commits, who committed them, and when they were committed.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -17,7 +17,7 @@
 <img width="250" height="500" src="https://raw.githubusercontent.com/Liimmaa/MintBankProject/main/MintProjectScreenshot.png" alt="">
  
 
-This application shows all the recent commmits to http://github.com/rails/rails repository so that the user can easily see what the last 25 commits were, who committed them, and when they were committed.
+This application shows all the recent commmits to http://github.com/rails/rails repository so that the user can easily see what the last 25 commits are, who committed them, and when they were committed. This application was built using the MVC architecture.
 
 ### Built With
 
