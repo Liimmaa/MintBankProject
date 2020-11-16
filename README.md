@@ -19,6 +19,8 @@
 
 This application shows all the recent commmits to http://github.com/rails/rails repository so that the user can easily see what the last 25 commits are, who committed them, and when they were committed. This application was built using the MVC architecture.
 
+Api [url](https://api.github.com/repos/rails/rails/commits)
+
 ### Built With
 
 * [Swift]()
@@ -27,6 +29,6 @@ This application shows all the recent commmits to http://github.com/rails/rails 
 <!-- CONTACT -->
 ## Contact
 
-Chioma Amanda Mmegwa - [@twitter_handle](https://twitter.com/AmandaMmegwa/)
+Chioma Amanda Mmegwa
 
-Project Link: https://github.com/Liimmaa/MintBankProject
+Project [Link](https://github.com/Liimmaa/MintBankProject)
