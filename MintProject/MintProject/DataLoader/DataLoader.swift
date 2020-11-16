@@ -9,6 +9,8 @@ import UIKit
 
 class DataLoader {
     
+    var loadDataDelegate: GithubCommitProtocol?
+    
     public func getData() {
         let url = "https://api.github.com/repos/rails/rails/commits"
         
@@ -28,6 +30,7 @@ class DataLoader {
                 return
             }
             print(json)
+            self.loadDataDelegate?.commitData(recentCommits: json)
         })
         
         task.resume()
