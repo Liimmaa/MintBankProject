@@ -46,9 +46,5 @@ class ListCommitsViewController: UIViewController, UITableViewDelegate,  UITable
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) as! CommitsCell
         return cell
     }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
-    }
 }
 
