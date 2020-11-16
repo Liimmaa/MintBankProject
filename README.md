@@ -29,4 +29,4 @@
 
 Chioma Amanda Mmegwa - [@twitter_handle](https://twitter.com/AmandaMmegwa/)
 
-Project Link: https://github.com/Liimmaa/MintBankProject/edit/main
+Project Link: https://github.com/Liimmaa/MintBankProject
