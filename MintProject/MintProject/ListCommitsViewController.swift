@@ -52,12 +52,18 @@ class ListCommitsViewController: UIViewController, UITableViewDelegate,  UITable
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return commitData?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) as! CommitsCell
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) as? CommitsCell
+        let path = commitData?[indexPath.row]
+        cell?.authorNameLabel.text = path?.commit.author.name
+        cell?.authorEmailLabel.text = path?.commit.author.email
+        cell?.date.text = path?.commit.author.date
+        cell?.commitMessage.text = path?.commit.message
+        
+        return cell ?? UITableViewCell()
     }
 }
 
