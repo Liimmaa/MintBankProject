@@ -12,7 +12,7 @@ class DataLoader {
     var loadDataDelegate: GithubCommitProtocol?
     
     public func getData() {
-        let url = "https://api.github.com/repos/rails/rails/commits"
+        let url = DataLoaderConstants.urlLink
         
         let task = URLSession.shared.dataTask(with: URL(string: url)!, completionHandler: { data, response,error in
             guard let data = data, error == nil else {
@@ -34,4 +34,3 @@ class DataLoader {
         task.resume()
     }
 }
-

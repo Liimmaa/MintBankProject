@@ -20,4 +20,3 @@ struct CommitAuthor: Codable {
     let name, email: String
     let date: String
 }
-
