@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MintProject
 //
-//  Created by USER on 16/11/2020.
+//  Created by Lima on 16/11/2020.
 //
 
 import UIKit
