@@ -145,13 +145,13 @@
 		CE239FBE2562E7DC0006B457 /* MintProject */ = {
 			isa = PBXGroup;
 			children = (
-				CE23A0112562FB4C0006B457 /* Protocol */,
-				CE23A00B2562FABE0006B457 /* DataLoader */,
 				CE23A0052562F8E30006B457 /* Model */,
 				CE239FFF2562F32B0006B457 /* View */,
+				CE23A017256302B30006B457 /* Controller */,
+				CE23A0112562FB4C0006B457 /* Protocol */,
+				CE23A00B2562FABE0006B457 /* DataLoader */,
 				CE239FBF2562E7DC0006B457 /* AppDelegate.swift */,
 				CE239FC12562E7DC0006B457 /* SceneDelegate.swift */,
-				CE239FC32562E7DC0006B457 /* ListCommitsViewController.swift */,
 				CE239FC82562E7DF0006B457 /* Assets.xcassets */,
 				CE239FCA2562E7DF0006B457 /* LaunchScreen.storyboard */,
 				CE239FCD2562E7DF0006B457 /* Info.plist */,
@@ -207,6 +207,14 @@
 				CE23A0122562FB640006B457 /* GithubCommitProtocol.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CE23A017256302B30006B457 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE239FC32562E7DC0006B457 /* ListCommitsViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
